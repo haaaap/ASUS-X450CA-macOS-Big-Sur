@@ -34,11 +34,11 @@ NOTICE: **This OpenCore EFI files does not have a SMBIOS. Generate and add your 
 
 ## How to actually install macOS Big Sur?
 - acquire files
-  - macOS Recovery Files with macrecovery.py (found in `Tools` folder)
+  - macOS Recovery Files with macrecovery.py (found in `utilities` folder)
   - EFI files
 - appropriate installation medium (refer to "Creating the USB" part on [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/))
 - copy in files
-- Create SMBIOS data for MacBookAir6,2 with GenSMBIOS (found in `tools` folder)
+- Create SMBIOS data for MacBookAir6,2 with GenSMBIOS (found in `utilities` folder)
   - make sure that the s/n is not [registered](https://checkcoverage.apple.com)
 - fill in SMBIOS data on PlatformInfo/Generic
 - example of SMBIOS data and where to fill it in
