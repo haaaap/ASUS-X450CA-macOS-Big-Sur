@@ -63,6 +63,14 @@ Apple ROM | 1093E9653261 | ROM
 - boot (hopefully) into macOS
 - install [Karabiner-Elements](https://karabiner-elements.pqrs.org/) for fn key functionality, and rebind opt to cmd and vice versa
 
+## My Specs
+- Processor: 1,8 GHz Dual-Core Intel Core™ i3-3217U
+- RAM: 8 GB 1600 MHz DDR3
+- Graphics: Intel HD Graphics 4000 1536 MB
+- Ethernet: REALTEK RTL8168
+- WiFi: Qualcomm Atheros AR9485
+- Storage: 500GB Seagate ST500LT012-9WS142
+
 ## Credits
 - The [Acidanthera](https://github.com/acidanthera/) team for the OpenCore bootloader, AppleALC, lilu, WhatEverGreen, VirtualSMC, VoodoooPS2Controller.kext,
 - [jwise](https://github.com/jwise) For HoRNDIS.kext,
