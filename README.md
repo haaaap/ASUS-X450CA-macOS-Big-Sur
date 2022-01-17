@@ -60,7 +60,8 @@ Apple ROM | 1093E9653261 | ROM
 - copy EFI files into local hard disk, remove anything inside in the process
 - reboot into BIOS, add Boot Option with the path `\EFI\BOOT\BOOTx64.EFI`
 - **don't forget to save your changes**
-- boot (hopefully) into macOS 
+- boot (hopefully) into macOS
+- install [Karabiner-Elements](https://karabiner-elements.pqrs.org/) 
 
 ## Credits
 - The [Acidanthera](https://github.com/acidanthera/) team for the OpenCore bootloader, AppleALC, lilu, WhatEverGreen, VirtualSMC, VoodoooPS2Controller.kext,
