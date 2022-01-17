@@ -42,13 +42,15 @@ NOTICE: **This OpenCore EFI files does not have a SMBIOS. Generate and add your 
   - make sure that the s/n is not [registered](https://checkcoverage.apple.com)
 - fill in SMBIOS data on PlatformInfo/Generic
 - example of SMBIOS data and where to fill it in
-`
-Type:         MacBookAir6,2 
-Serial:       C02PK0NZF5V7 (for SystemSerialNumber) 
-Board Serial: C02515501J9FD47CB (for MLB)
-SmUUID:       D5444EFD-4362-49DC-A1B4-7159BD1D508F (for SystemUUID)
-Apple ROM:    1093E9653261 (for ROM)
-`
+
+Data | Output | Where to Put
+--- | --- | --- 
+Type | MacBookAir6,2 | SystemProductName 
+Serial | C02PK0NZF5V7 | SystemSerialNumber
+Board Serial | C02515501J9FD47CB | MLB
+SmUUID | D5444EFD-4362-49DC-A1B4-7159BD1D508F | SystemUUID
+Apple ROM | 1093E9653261 | ROM
+
 - boot computer, spam f2, select `(UEFI) flashdisk name`
 - computer should boot into macOS recovery
 - make sure you have ethernet
