@@ -73,7 +73,7 @@ Apple ROM | 1093E9653261 | ROM
 - Storage: 500GB Seagate ST500LT012-9WS142
 
 ## Credits
-- The [Acidanthera](https://github.com/acidanthera/) team for the OpenCore bootloader, AppleALC, lilu, WhatEverGreen, VirtualSMC, VoodoooPS2Controller.kext,
+- The [Acidanthera](https://github.com/acidanthera/) team for the OpenCore bootloader, AppleALC, lilu, WhateverGreen, VirtualSMC, VoodoooPS2Controller.kext,
 - [jwise](https://github.com/jwise) For HoRNDIS.kext,
 - [RehabMan](https://github.com/RehabMan) For Various DSDT Patches,
 - [Mieze](https://github.com/Mieze) For RealtekRTL8111.kext,
