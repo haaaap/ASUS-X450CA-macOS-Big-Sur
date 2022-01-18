@@ -8,7 +8,7 @@ NOTICE: **This OpenCore EFI files does not have a SMBIOS. Generate and add your 
 - Boot
 - Hardware Acceleration
 - Audio Input & Output
-- USB 2.0 Mapping
+- USB 3.0 Mapping
 - WebCam
 - Brightness Control
 - Trackpad (Settings accessible with battery installed)
@@ -23,14 +23,13 @@ NOTICE: **This OpenCore EFI files does not have a SMBIOS. Generate and add your 
 - WiFI (macOS does not support Atheros cards natively, you can try to use [ATH9KFixup](https://github.com/black-dragon74/ATH9KFixup "Atheros 9K series wifi fix") to fix it)
 - VGA Port
 - Internal Card Reader
-- USB 3.0 Speeds
-- Playing DRM-Controlled content on safari (use firefox or chrome)
+- Playing DRM-Controlled content on safari or Apple TV app (use firefox or chrome)
 
 ## Weird Quirks and Shit I need to fix
 - Phase 1 boot is stretched, could be firmware limitation
 - screen glitching at boot phase transition, non issue for me
 - haven't set up OC Boot Picker as i don't need it
-- USB 3.0 Mapping
+- ~~USB 3.0 Mapping~~ DONE
 - fn key support is available with [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
 - pressing fn+f8 (Projector button thing) on lock screen, or w/o Karabiner-Elements **COMPLETELY SHITS YOUR DISPLAY, DO NOT RECCOMEND.**
 
