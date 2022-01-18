@@ -20,6 +20,7 @@ NOTICE: **This OpenCore EFI files does not have a SMBIOS. Generate and add your 
 - VGA Port
 - Internal Card Reader
 - USB 3.0 Speeds
+- Playing DRM-Controlled content on safari (use firefox or chrome)
 
 ## Weird Quirks and Shit I need to fix
 - Phase 1 boot is stretched, could be firmware limitation
@@ -68,7 +69,7 @@ Apple ROM | 1093E9653261 | ROM
 - RAM: 8 GB 1600 MHz DDR3
 - Graphics: Intel HD Graphics 4000 1536 MB
 - Ethernet: REALTEK RTL8168
-- WiFi: Qualcomm Atheros AR9485
+- WiFi: Qualcomm Atheros AR9485 (Does NOT Work on macOS)
 - Storage: 500GB Seagate ST500LT012-9WS142
 
 ## Credits
