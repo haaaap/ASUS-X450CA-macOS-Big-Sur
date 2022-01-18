@@ -1,4 +1,8 @@
-# OpenCore 0.7.6 files for Asus X450CA running macOS Big Sur 11.6.2
+# Asus X450CA 
+
+[![macOS](https://img.shields.io/badge/macOS-Big%20Sur%2011.6.2-red)](https://www.apple.com/macos/big-sur/)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.7.6-blue)](https://github.com/acidanthera/OpenCorePkg)
+
 NOTICE: **This OpenCore EFI files does not have a SMBIOS. Generate and add your smbios (MacBookAir6,2) with the [GenSMBIOS tool](https://github.com/corpnewt/GenSMBIOS).**
 ## What's Working?
 - Boot
