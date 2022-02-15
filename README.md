@@ -18,11 +18,11 @@ NOTICE: **This OpenCore EFI files does not have a SMBIOS. Generate and add your 
 - Headphone Jack
 - USB Tethering with [HoRNDIS](https://github.com/jwise/HoRNDIS/)
 - sleep/wake, fn+f1 keyboard combo works too!
+- WiFI
+- Card Reader
+- VGA out (very rudimentary mirroring, nothing else)
 
 ## What Doesn't Work?
-- WiFI (macOS does not support Atheros cards natively, you can try to use [ATH9KFixup](https://github.com/black-dragon74/ATH9KFixup "Atheros 9K series wifi fix") to fix it)
-- VGA Port
-- Internal Card Reader
 - Playing DRM-Controlled content on safari or Apple TV app (use firefox or chrome)
 
 ## Weird Quirks and Shit I need to fix
@@ -83,3 +83,5 @@ Apple ROM | 1093E9653261 | ROM
 - [1Revenger1](https://github.com/1Revenger1) For ECEnabler.kext,
 - [corpnewt](https://github.com/corpnewt) For USBMap tool, and GenSMBIOS
 - The [/r/Hackintosh Paradise](https://discord.gg/Wxam8aH) Discord Server for helping me clean up *most* of the weird quirks
+- [qiqco](https://github.com/qiqco) For the Qualcomm Atheros AR9485 kexts
+- [0xFireWolf](https://github.com/0xfirewolf) For the RealtekCardReader.kext
