@@ -23,7 +23,7 @@ NOTICE: **This OpenCore EFI files does not have a SMBIOS. Generate and add your 
 - VGA out (very rudimentary mirroring, nothing else)
 
 ## What Doesn't Work?
-- Playing DRM-Controlled content on safari or Apple TV app (use firefox or chrome)
+- at this point, damn near nothing
 
 ## Weird Quirks and Shit I need to fix
 - Phase 1 boot is stretched, could be firmware limitation
@@ -32,6 +32,7 @@ NOTICE: **This OpenCore EFI files does not have a SMBIOS. Generate and add your 
 - ~~USB 3.0 Mapping~~ DONE
 - fn key support is available with [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
 - pressing fn+f8 (Projector button thing) on lock screen, or w/o Karabiner-Elements **COMPLETELY SHITS YOUR DISPLAY, DO NOT RECCOMEND.**
+- Playing DRM-Controlled movies on safari, Apple TV+ app is not possible, oc limitation. use firefox/chrome
 
 ## BIOS Settings
 - DVMT-PRE-ALLOC: 64M
