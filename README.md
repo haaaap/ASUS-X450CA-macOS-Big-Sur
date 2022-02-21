@@ -63,7 +63,7 @@ Apple ROM | 1093E9653261 | ROM
 - computer would reboot a few times during reboot, choose `macOS Installer`
 - finish installation, then use mountEFI to well, "mount efi"
 - copy EFI files into local hard disk, remove anything inside in the process
-- reboot into BIOS, add Boot Option with the path `\EFI\BOOT\BOOTx64.EFI`
+- reboot into BIOS, add Boot Option with the path `\EFI\OC\OpenCore.efi`
 - **don't forget to save your changes**
 - boot (hopefully) into macOS
 - install [Karabiner-Elements](https://karabiner-elements.pqrs.org/) for fn key functionality, and rebind opt to cmd and vice versa
@@ -73,7 +73,7 @@ Apple ROM | 1093E9653261 | ROM
 - RAM: 8 GB 1600 MHz DDR3
 - Graphics: Intel HD Graphics 4000 1536 MB
 - Ethernet: REALTEK RTL8168
-- WiFi: Qualcomm Atheros AR9485 (Does NOT Work on macOS)
+- WiFi: Qualcomm Atheros AR9485
 - Storage: 500GB Seagate ST500LT012-9WS142
 
 ## Credits
