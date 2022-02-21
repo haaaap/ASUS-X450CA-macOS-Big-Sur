@@ -73,7 +73,7 @@ Apple ROM | 1093E9653261 | ROM
 - RAM: 8 GB 1600 MHz DDR3
 - Graphics: Intel HD Graphics 4000 1536 MB
 - Ethernet: REALTEK RTL8168
-- WiFi: Qualcomm Atheros AR9485 (Does NOT Work on macOS)
+- WiFi: Qualcomm Atheros AR9485
 - Storage: 500GB Seagate ST500LT012-9WS142
 
 ## Credits
