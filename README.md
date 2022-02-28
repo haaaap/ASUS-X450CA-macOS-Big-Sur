@@ -63,7 +63,7 @@ Apple ROM | 1093E9653261 | ROM
 - computer would reboot a few times during reboot, choose `macOS Installer`
 - finish installation, then use mountEFI to well, "mount efi"
 - copy EFI files into local hard disk, remove anything inside in the process
-- reboot into BIOS, add Boot Option with the path `\EFI\BOOT\BOOTx64.EFI`
+- reboot into BIOS, add Boot Option with the path `\EFI\OC\OpenCore.EFI`
 - **don't forget to save your changes**
 - boot (hopefully) into macOS
 - install [Karabiner-Elements](https://karabiner-elements.pqrs.org/) for fn key functionality, and rebind opt to cmd and vice versa
