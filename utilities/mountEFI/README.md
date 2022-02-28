@@ -1,5 +1,5 @@
 # MountEFI
-An *even* more robust edition of corpnewt's previous MountEFI scripts.
+An *even* more robust edition of [corpnewt](https://github.com/corpnewt/)'s previous MountEFI scripts.
 
 Other scripts can call this script to do a silent mount - and receive a 0 on succes, or 1 (or higher) on failure.
 
