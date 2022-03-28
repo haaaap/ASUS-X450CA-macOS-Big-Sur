@@ -60,7 +60,7 @@ Apple ROM | 1093E9653261 | ROM
 - computer should boot into macOS recovery
 - make sure you have ethernet
 - nuke hard disk, install macos
-- computer would reboot a few times during reboot, choose `macOS Installer`
+- computer would reboot a few times during install, choose `macOS Installer`
 - finish installation, then use mountEFI to well, "mount efi"
 - copy EFI files into local hard disk, remove anything inside in the process
 - reboot into BIOS, add Boot Option with the path `\EFI\OC\OpenCore.EFI`
