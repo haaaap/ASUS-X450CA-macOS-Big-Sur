@@ -1399,9 +1399,9 @@
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>wIR6vBN3</data>
+			<data></data>
 			<key>MLB</key>
-			<string>C02435500GUFD478C</string>
+			<string></string>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -1409,9 +1409,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookAir6,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02N90EGF5V7</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>BE7AA3D1-CC98-4442-B573-0A612E6FBBBF</string>
+			<string></string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1674,7 +1674,7 @@
 			</dict>
 		</array>
 	</dict>
-	<key>efi brewed by smoked (hap#3834)</key>
+	<key>#efi brewed by smoked (hap#3834)</key>
 	<string>if you found someone asking help with this efi don't give them.</string>
 </dict>
 </plist>
