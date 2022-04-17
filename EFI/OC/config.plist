@@ -2,16 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>#WARNING - 1</key>
-	<string>This is just a sample. Do NOT try loading it.</string>
-	<key>#WARNING - 2</key>
-	<string>Ensure you understand EVERY field before booting.</string>
-	<key>#WARNING - 3</key>
-	<string>In most cases recommended to use Sample.plist</string>
-	<key>#WARNING - 4</key>
-	<string>Use SampleCustom.plist only for special cases.</string>
-	<key>#WARNING - 5</key>
-	<string>OpenCore version is 0.7.7, while config is 0.7.6.</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
@@ -34,25 +24,9 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-IMEI.aml</string>
-				<key>Path</key>
-				<string>SSDT-IMEI.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-PNLF.aml</string>
 				<key>Path</key>
 				<string>SSDT-PNLF.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-XOSI.aml</string>
-				<key>Path</key>
-				<string>SSDT-XOSI.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -771,9 +745,9 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>20.99.99</string>
 				<key>MinKernel</key>
-				<string></string>
+				<string>20.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -789,45 +763,27 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>MaxKernel</key>
-				<string></string>
+				<string>20.99.99</string>
 				<key>MinKernel</key>
-				<string></string>
+				<string>20.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>RealtekCardReader.kext</string>
+				<string>FeatureUnlock.kext</string>
 				<key>Comment</key>
-				<string>RealtekCardReader.kext</string>
+				<string>FeatureUnlock.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/RealtekCardReader</string>
+				<string>Contents/MacOS/FeatureUnlock</string>
 				<key>Arch</key>
 				<string>Any</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>RealtekCardReaderFriend.kext</string>
-				<key>Comment</key>
-				<string>RealtekCardReaderFriend.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/RealtekCardReaderFriend</string>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
+				<string>20.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -1164,7 +1120,7 @@
 			<key>HibernateMode</key>
 			<string>None</string>
 			<key>HideAuxiliary</key>
-			<false/>
+			<true/>
 			<key>LauncherOption</key>
 			<string>Disabled</string>
 			<key>LauncherPath</key>
@@ -1255,32 +1211,12 @@
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
-			<string>Default</string>
+			<string>Disabled</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
 		<key>Tools</key>
 		<array>
-			<dict>
-				<key>Comment</key>
-				<string>acpidump.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>Name</key>
-				<string>acpidump.efi</string>
-				<key>TextMode</key>
-				<false/>
-				<key>Enabled</key>
-				<true/>
-				<key>Arguments</key>
-				<string></string>
-				<key>Path</key>
-				<string>acpidump.efi</string>
-				<key>Auxiliary</key>
-				<true/>
-			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>OpenShell.efi</string>
@@ -1609,7 +1545,7 @@
 			<key>FirmwareVolume</key>
 			<true/>
 			<key>HashServices</key>
-			<false/>
+			<true/>
 			<key>OSInfo</key>
 			<false/>
 			<key>UnicodeCollation</key>
@@ -1626,7 +1562,7 @@
 			<key>EnableVmx</key>
 			<false/>
 			<key>ExitBootServicesDelay</key>
-			<integer>0</integer>
+			<integer>3727</integer>
 			<key>ForceOcWriteFlash</key>
 			<false/>
 			<key>ForgeUefiSupport</key>
@@ -1674,7 +1610,7 @@
 			</dict>
 		</array>
 	</dict>
-	<key>#efi brewed by smoked (hap#3834)</key>
-	<string>if you found someone asking help with this efi don't give them.</string>
+	<key>#config by nico</key>
+	<string>o' hackintosh discord do not give support</string>
 </dict>
 </plist>
