@@ -56,7 +56,7 @@ Board Serial | C02515501J9FD47CB | MLB
 SmUUID | D5444EFD-4362-49DC-A1B4-7159BD1D508F | SystemUUID
 Apple ROM | 1093E9653261 | ROM
 
-- boot computer, spam f2, select `(UEFI) flashdisk name`
+- boot computer, spam esc, select `(UEFI) flashdisk name`
 - computer should boot into macOS recovery
 - make sure you have ethernet
 - nuke hard disk, install macos
