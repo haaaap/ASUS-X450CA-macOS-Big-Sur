@@ -28,7 +28,7 @@ NOTICE: **This OpenCore EFI files does not have a SMBIOS. Generate and add your 
 ## Weird Quirks and Shit I need to fix
 - Phase 1 boot is stretched, could be firmware limitation
 - screen glitching at boot phase transition, non issue for me
-- haven't set up OC Boot Picker as i don't need it
+- ~~haven't set up OC Boot Picker as i don't need it~~ done
 - ~~USB 3.0 Mapping~~ DONE
 - fn key support is available with [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
 - pressing fn+f8 (Projector button thing) on lock screen, or w/o Karabiner-Elements **COMPLETELY SHITS YOUR DISPLAY, DO NOT RECCOMEND.**
