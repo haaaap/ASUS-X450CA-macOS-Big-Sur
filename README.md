@@ -19,7 +19,7 @@ NOTICE: **This OpenCore EFI files does not have a SMBIOS. Generate and add your 
 - USB Tethering with [HoRNDIS](https://github.com/jwise/HoRNDIS/)
 - sleep/wake, fn+f1 keyboard combo works too!
 - WiFI
-- Card Reader
+- ~~Card Reader~~ currently not included
 - VGA out (very rudimentary mirroring, nothing else)
 
 ## What Doesn't Work?
